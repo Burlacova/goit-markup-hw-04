@@ -1,0 +1,185 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --background-color: #F5F4FA;
+}
+
+body {
+    font-family: Roboto;
+    color: var(--primary-text-color);
+    background-color: white;
+}
+
+
+/* шапка */
+ul {
+    list-style: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo-header {
+    color: black;
+}
+
+.logo-footer {
+    color: white;
+}
+
+.link {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.it {
+    color: var(--text-color);
+    size: 14px;
+}
+
+.nav, .link:hover, 
+.nav, .link:focus {
+    color: var(--accent-color);
+
+}
+
+.section-hero, 
+.section-footer {
+    background: #2F303A;
+}
+.section-team {
+    background-color: var(--background-color);
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+    color: #188CE8;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.hidden {
+    visibility: hidden;
+}
+
+/* особенности*/
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+/* команда*/
+.team-card {
+    background-color: white;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--primary-text-color);
+}
+
+.team-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--text-color);
+}
+
+/*подвал*/
+
+.link-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress {
+    color: white;
+}
+
+
+
+
+
+/*Портфолио*/
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.portfolio-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+.btn {
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.btn.btn-link:hover {
+    color: white;
+    background-color: var(--accent-color);
+}
