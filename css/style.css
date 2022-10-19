@@ -31,12 +31,18 @@ body {
 }
 ul {
     list-style: none;
-}
-
-.list {
     margin: 0;
     padding: 0;
 }
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*.list {
+    margin: 0;
+    padding: 0;
+}*/
 
 /* шапка */
 
@@ -114,6 +120,7 @@ ul {
 .section-team {
     background-color: var(--background-color);
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .hero {
@@ -135,6 +142,11 @@ ul {
     color: #FFFFFF;
     background-color: var(--accent-color);
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+    padding: 10px 32px;
+
    
 }
 .btn-hero:hover,
@@ -270,7 +282,7 @@ ul {
 .nav-footer {
     display: inline-block;   
 }
-.nav-footer li {
+.nav-footer li:not(:last-child) {
     margin-bottom: 9px;
 }
 .logo-footer {
@@ -336,7 +348,6 @@ ul {
     font-size: 18px;
     line-height: 2;
 
-    margin-bottom: 4px;
 }
 
 .portfolio-subtitle {
@@ -345,7 +356,7 @@ ul {
     line-height: 1.8;
     color: var(--text-color);
 
-    margin-bottom: 20px;
+    
     
 }
 
