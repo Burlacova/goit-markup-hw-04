@@ -20,26 +20,29 @@
 <body>
     <!-- Шапка-->
     <header class="page-header">
-         <nav class="container main-nav">
+        <div class="container header">
+            <nav class="main-nav">
                 <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
                 <ul class="nav list">
                     <li class="item"><a href="./index.html" class="link">Студія</a></li>
                     <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
                     <li class="item"><a href="" class="link">Контакти</a></li>
                 </ul>
-                <ul class="nav-link list">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="it link">info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="it link">+38 096 111 11 11</a></li>
-                </ul>
             </nav>
+        
+            <ul class="nav-link list">
+                <li class="item"><a href="mailto:info@devstudio.com" class="it link">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="it link">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
         <!-- Фильтры-->
-        <section>
+        <section class="section-portfolio">
             <div class="container">
                 <h1 class="visually-hidden">портфолио</h1>
-                <ul class="prtf-btn">
+                <ul class="prtf-btn list">
                     <li>
                         <button type="button" class="btn btn-link">Усі</button>
                     </li>
@@ -58,51 +61,69 @@
                 
                 </ul>
                 <!-- Примеры работ-->
-                <ul class="prtf-examples">
+                <ul class="prtf-examples list">
                     <li class="list portfolio-card">
                         <img src="images/img-one.jpg" alt="Веб-сайт" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Технокряк</h2>
-                        <p class="portfolio-subtitle">Веб-сайт</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Технокряк</h2>
+                            <p class="portfolio-subtitle">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-two.jpg" alt="Постер басетбольной команды" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="portfolio-subtitle">Дизайн</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-subtitle">Дизайн</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-three.jpg" alt="логотип ресторана" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Ресторан Seafood</h2>
-                        <p class="portfolio-subtitle">Додаток</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Ресторан Seafood</h2>
+                            <p class="portfolio-subtitle">Додаток</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-four.jpg" alt="наушники" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Проєкт Prime</h2>
-                        <p class="portfolio-subtitle">Маркетинг</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Проєкт Prime</h2>
+                            <p class="portfolio-subtitle">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-five.jpg" alt="коробки" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Проєкт Boxes</h2>
-                        <p class="portfolio-subtitle">Додаток</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Проєкт Boxes</h2>
+                            <p class="portfolio-subtitle">Додаток</p>
+                        <div></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-six.jpg" alt="Веб-сайт" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                        <p class="portfolio-subtitle">Веб-сайт</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                            <p class="portfolio-subtitle">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-seven.jpg" alt="разворот журнала" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Видання Limited Edition</h2>
-                        <p class="portfolio-subtitle">Дизайн</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Видання Limited Edition</h2>
+                            <p class="portfolio-subtitle">Дизайн</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-eight.jpg" alt="логотип" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Проєкт LAB</h2>
-                        <p class="portfolio-subtitle">Маркетинг</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Проєкт LAB</h2>
+                            <p class="portfolio-subtitle">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="images/img-nine.jpg" alt="ноутбук" height="294" width="370" class="foto">
-                        <h2 class="portfolio-title">Growing Business</h2>
-                        <p class="portfolio-subtitle">Додаток</p>
+                        <div class="port-text">
+                            <h2 class="portfolio-title">Growing Business</h2>
+                            <p class="portfolio-subtitle">Додаток</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -117,21 +138,21 @@
     <footer class="section-footer">
         <div class="container footer">
             <a class="logo-footer" href="./index.html">Web<span class="footer-span">Studio</span></a>
-            <ul class="nav-footer">
-                <address>
-                    <ul class="list">
-                        <li>
-                            <a class="link-footer adress" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
-                                rel="noopener noreferrer nofollow">г. Киев, пр-т Леси
-                                Украинки, 26</a>
-                        </li>
-                        <li>
-                            <a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li>
-                            <a class="link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
-                        </li>
-                    </ul>
+            <address>
+                <ul class="list nav-footer">
+                    <li>
+                        <a class="link-footer adress" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                            rel="noopener noreferrer nofollow">г. Киев, пр-т Леси
+                            Украинки, 26</a>
+                    </li>
+                    <li>
+                        <a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="link-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+        </div>
                 </address>
         </div>
     </footer>
