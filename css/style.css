@@ -136,7 +136,7 @@ h1, h2, h3, p {
 }
 
 
-.section-footer {
+.section-footer, .section-hero {
     background: #2F303A;
     }
 .section-hero { 
