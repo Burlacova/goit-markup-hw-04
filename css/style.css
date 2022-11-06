@@ -83,7 +83,7 @@ h1, h2, h3, p {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--icon-color);   
+       
 }
 
 
@@ -91,7 +91,7 @@ h1, h2, h3, p {
     width: 10px;
     height: 13px;
     margin-right: 10px;  
-    fill: var(--icon-color);
+    
 }
 
 .nav,
@@ -141,7 +141,7 @@ h1, h2, h3, p {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(/images/bckg-image.jpg);
+    background-image: url(./images/bckg-image.jpg);
     background-size: cover;
 }
 
