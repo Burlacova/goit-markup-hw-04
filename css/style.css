@@ -93,6 +93,7 @@ h1, h2, h3, p {
     width: 10px;
     height: 16px;
     margin-right: 10px;  
+    fill: var(--icon-color);
     
 }
 
@@ -140,10 +141,12 @@ h1, h2, h3, p {
     background: #2F303A;
     }
 .section-hero { 
+    width: 1600px;
+    margin: 0 auto;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(/images/Img-bckg.jpg) ;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)),  url(../images/Img-bckg.jpg) ;
     background-size: cover;
 }
 
